@@ -1,0 +1,84 @@
+EVENT_TYPE,mode,millis,from_tower,to_tower,latency_ms,success
+MPU6050 Ready!
+Mode: PREDICTIVE
+Model loaded successfully. Starting live prediction...
+HANDOVER,predictive,5455,NONE,AP1,1051,1
+SUMMARY,predictive,13299,handovers=1,drops=0,avg_latencyms=1051.00
+SUMMARY,predictive,24684,handovers=1,drops=0,avg_latency_ms=1051.00
+HANDOVER,predictive,29806,AP1,AP2,1082,1
+SUMMARY,predictive,37867,handovers=2,drops=0,avg_latency_ms=1066.50
+SUMMARY,predictive,49259,handovers=2,drops=0,avg_latency_ms=1066.50
+HANDOVER,predictive,57842,AP2,AP3,1082,1
+SUMMARY,predictive,61634,handovers=3,drops=0,avg_latency_ms=1071.67
+SUMMARY,predictive,73027,handovers=3,drops=0,avg_latency_ms=1071.67
+HANDOVER,predictive,78363,AP3,AP4,1195,1
+SUMMARY,predictive,86726,handovers=4,drops=0,avg_latency_ms=1102.50
+SUMMARY,predictive,98220,handovers=4,drops=0,avg_latency_ms=1102.50
+HANDOVER,predictive,111326,AP4,AP3,1133,1
+SUMMARY,predictive,111354,handovers=5,drops=0,avg_latency_ms=1108.60
+SUMMARY,predictive,123454,handovers=5,drops=0,avg_latency_ms=1108.60
+SUMMARY,predictive,135553,handovers=5,drops=0,avg_latency_ms=1108.60
+HANDOVER,predictive,140675,AP3,AP2,1082,1
+SUMMARY,predictive,148230,handovers=6,drops=0,avg_latency_ms=1104.17
+SUMMARY,predictive,159016,handovers=6,drops=0,avg_latency_ms=1104.17
+SUMMARY,predictive,170812,handovers=6,drops=0,avg_latency_ms=1104.17
+HANDOVER,predictive,175581,AP2,AP1,1133,1
+SUMMARY,predictive,183339,handovers=7,drops=0,avg_latency_ms=1108.29
+SUMMARY,predictive,194730,handovers=7,drops=0,avg_latency_ms=1108.29
+E BOD: Brownout detector was triggered
+
+
+rst:0x3 (SW_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:4876
+ho 0 tail 12 room 4
+load:0x40078000,len:16560
+load:0x40080400,len:3500
+entry 0x400805b4
+EVENT_TYPE,mode,millis,from_tower,to_tower,latency_ms,success
+MPU6050 Ready!
+Mode: PREDICTIVE
+Model loaded successfully. Starting live prediction...
+HANDOVER,predictive,5247,NONE,AP2,1051,1
+SUMMARY,predictive,13092,handovers=1,drops=0,avg_latency_ms=1051.00
+HANDOVER,predictive,22625,AP2,AP1,1232,1
+SUMMARY,predictive,26820,handovers=2,drops=0,avg_latency_ms=1141.50
+HANDOVER,predictive,36027,AP1,AP2,1100,1
+SUMMARY,predictive,39718,handovers=3,drops=0,avg_latenc_ms=1127.67
+SUMMARY,predictive,51111,handovers=3,drops=0,avg_latency_ms=1127.67
+SUMMARY,predictive,62402,handovers=3,drops=0,avg_latency_ms=1127.67
+HANDOVER,predictive,75304,AP2,AP3,1132,1
+SUMMARY,predictive,75332,handovers=4,drops=0,avg_latency_ms=1128.75
+SUMMARY,predictive,87836,handovers=4,drops=0,avg_latency_ms=1128.75
+HANDOVER,predictive,97076,AP3,AP4,1133,1
+SUMMARY,predictive,101574,handovers=5,drops=0,avg_latency_ms=1129.60
+E BOD: Brownout detector was triggered
+EVENT_TYPE,mode,millis,from_tower,to_tower,latency_ms,success
+MPU6050 Ready!
+Mode: PREDICTIVE
+Model loaded successfully. Starting live prediction...
+HANDOVER,predictive,5510,NONE,AP3,1113,1
+SUMMARY,predictive,13758,handovers=1,drops=0,avg_latency_ms=1113.00
+HANDOVER,predictive,26452,AP3,AP2,1133,1
+SUMMARY,predictive,26480,handovers=2,drops=0,avg_latency_ms=1123.00
+SUMMARY,predictive,37469,handovers=2,drops=0,avg_latency_ms=1123.00
+E BOD: Brownout detector was triggered
+
+MPU6050 Ready!
+Mode: PREDICTIVE
+Model loaded successfully. Starting live prediction...
+HANDOVER,predictive,5042,NONE,AP2,1051,1
+SUMMARY,predictive,12484,handovers=1,drops=0,avg_latency_ms=1051.00
+SUMMARY,predictive,24273,handovers=1,drops=0,avg_latency_ms=1051.00
+DROP,predictive,32399,AP2,,,
+E (47187) wifi:sta is connecting, cannot set config
+HANDOVER,predictive,37399,NONE,AP1,5000,0
+E (52194) wifi:sta is connecting, cannot set config
+HANDOVER,predictive,42406,NONE,AP4,5000,0
+SUMMARY,predictive,42434,handovers=1,drops=1,avg_latency_ms=1051.00
+E BOD: Brownout detector was triggered
+
+
+

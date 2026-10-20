@@ -1,0 +1,34 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1787645645.757866    9456 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1787645650.276713    9456 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1787645651.889941    9456 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+Saved artifact at 'C:\Users\user\AppData\Local\Temp\tmpgriktqzu'. The following endpoints are available:
+
+* Endpoint 'serve'
+  args_0 (POSITIONAL_ONLY): TensorSpec(shape=(1, 5, 4), dtype=tf.float32, name='keras_tensor_6')
+Output Type:
+  TensorSpec(shape=(1, 4), dtype=tf.float32, name=None)
+Captures:
+  2455328657424: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  2455328656656: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  2455328661456: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  2455328658960: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  2455328660688: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  2455328662416: TensorSpec(shape=(), dtype=tf.resource, name=None)
+  2455328658768: TensorSpec(shape=(), dtype=tf.resource, name=None)
+W0000 00:00:1787645653.096534    9456 tf_tfl_flatbuffer_helpers.cc:364] Ignored output_format.
+W0000 00:00:1787645653.096655    9456 tf_tfl_flatbuffer_helpers.cc:367] Ignored drop_control_dependency.
+I0000 00:00:1787645653.097939    9456 reader.cc:83] Reading SavedModel from: C:\Users\user\AppData\Local\Temp\tmpgriktqzu
+I0000 00:00:1787645653.099543    9456 reader.cc:52] Reading meta graph with tags { serve }
+I0000 00:00:1787645653.099595    9456 reader.cc:147] Reading SavedModel debug info (if present) from: C:\Users\user\AppData\Local\Temp\tmpgriktqzu
+I0000 00:00:1787645653.111124    9456 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+I0000 00:00:1787645653.115044    9456 loader.cc:236] Restoring SavedModel bundle.
+I0000 00:00:1787645653.175254    9456 loader.cc:220] Running initialization op on SavedModel bundle at path: C:\Users\user\AppData\Local\Temp\tmpgriktqzu
+I0000 00:00:1787645653.194585    9456 loader.cc:471] SavedModel load for tags { serve }; Status: success: OK. Took 96674 microseconds.
+I0000 00:00:1787645653.221137    9456 dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+I0000 00:00:1787645653.316032    9456 flatbuffer_export.cc:4302] Estimated count of arithmetic ops: 0.021 M  ops, equivalently 0.011 M  MACs
+Saved handover_predictor_int8.tflite
+Model size: 30932 bytes (30.21 KB)
